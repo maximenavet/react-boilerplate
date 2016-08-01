@@ -2,11 +2,10 @@
 
 ## Running /dev
 
-- npm run start:dev
-- npm run serve
+- npm run start-server-dev
+- npm run start-app-dev
 
 ## Stack
 
 - React
 - Flux
-- Universal
