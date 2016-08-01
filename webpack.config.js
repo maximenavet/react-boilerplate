@@ -34,7 +34,7 @@ module.exports = {
   devServer: {
     outputPath: path.join(__dirname, "/build"),
     proxy: {
-      '/': {
+      '/*': {
         target: 'http://localhost:9090/',
         secure: false,
       }
